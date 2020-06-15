@@ -1,0 +1,140 @@
+                     * {
+                         padding: 0;
+                         margin: 0;
+                         box-sizing: border-box;
+                     }
+                     /* basics */
+                     
+                     a {
+                         text-decoration: none;
+                         text-decoration-style: none;
+                     }
+                     
+                     ul {
+                         list-style: none;
+                     }
+                     
+                     nav {
+                         font-family: 'Lato', sans-serif;
+                         width: 100%;
+                         height: 50px;
+                         background: transparent;
+                         position: fixed;
+                         display: flex;
+                         flex-direction: row;
+                         position: relative;
+                         padding: 0 120px;
+                         z-index: 10;
+                     }
+                     
+                     .logo {
+                         background-color: #DD93EC;
+                         padding: .5em;
+                         height: 60px;
+                         width: fit-content;
+                         margin: 0 .5em;
+                     }
+                     
+                     .logo-link {
+                         font-weight: 700;
+                         font-size: 2rem;
+                         color: #191C23;
+                         margin: .5rem 0;
+                     }
+                     
+                     .links {
+                         position: absolute;
+                         left: 70%;
+                         display: flex;
+                         flex-direction: row;
+                         margin: 1rem 0;
+                     }
+                     
+                     .nav-link a {
+                         font-size: 1rem;
+                         font-weight: 700;
+                         padding: 0 1rem;
+                         color: white;
+                     }
+                     
+                     .nav-link .active {
+                         background-color: #fff;
+                         color: #000;
+                         padding: 12px;
+                         border-radius: 5px;
+                     }
+                     
+                     .nav-icons {
+                         display: none;
+                     }
+                     
+                     .home-hero {
+                         width: 100%;
+                         height: 100vh;
+                         background-color: #191C23;
+                         position: relative;
+                     }
+                     
+                     .left-items {
+                         position: absolute;
+                         width: max-content;
+                         height: auto;
+                         top: 25%;
+                         left: 120px;
+                         width: 60%;
+                     }
+                     
+                     .left-items h1 {
+                         font-family: 'Playfair Display', serif;
+                         font-size: 5rem;
+                         font-weight: 700;
+                         letter-spacing: 3px;
+                         padding-bottom: 1rem;
+                         color: #DD93EC;
+                     }
+                     
+                     .left-items h2 {
+                         font-family: 'Lato', sans-serif;
+                         font-size: 2rem;
+                         font-weight: 400;
+                         letter-spacing: 2px;
+                         color: #DD93EC;
+                     }
+                     
+                     .hero-cta {
+                         margin: 2.5rem 0;
+                         padding: 0;
+                     }
+                     
+                     .hero-cta .btn {
+                         margin-right: 1rem;
+                         font-size: 1.5rem;
+                         font-family: 'Lato', sans-serif;
+                         font-weight: 400;
+                         padding: 12px 15px;
+                         background-color: #DD93EC;
+                         color: #191C23;
+                         border: solid 2px #DD93EC;
+                         border-radius: 10px;
+                     }
+                     
+                     .hero-cta .btn-active {
+                         border: solid 2px #DD93EC;
+                         color: #DD93EC;
+                         background-color: #191C23;
+                     }
+                     
+                     .hero-cta .btn-active i {
+                         padding: 0 5px;
+                     }
+                     
+                     .web-vector {
+                         position: absolute;
+                         top: 0;
+                         right: 0;
+                         height: 100vh;
+                         width: 50%;
+                         background-image: url(/assets/vector.png);
+                         background-size: cover;
+                     }
+                     /* Mobile devices */
